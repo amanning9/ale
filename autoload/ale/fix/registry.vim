@@ -461,6 +461,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['markdown'],
 \       'description': 'Fix markdown files with remark-lint',
 \   },
+\   'djhtml': {
+\       'function': 'ale#fixers#djhtml#Fix',
+\       'suggested_filetypes': ['htmldjango'],
+\       'description': 'Fix Django HTML files with djhtml.',
+\   },
 \   'html-beautify': {
 \       'function': 'ale#fixers#html_beautify#Fix',
 \       'suggested_filetypes': ['html', 'htmldjango'],
